@@ -152,3 +152,52 @@ body {
   color: #cfd8ff;
   margin-bottom: 2rem;
 }
+
+/* Galaxy Section */
+.galaxy {
+  position: relative;
+  padding: 6rem 3rem;
+  text-align: center;
+  background: #050510;
+  overflow: hidden;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.galaxy h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px #6a8cff;
+}
+
+.galaxy p {
+  font-size: 1.2rem;
+  color: #cfd8ff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Animated Stars */
+.galaxy::before,
+.galaxy::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('Images/png-night-sky-night-sky-by-the-retro-specter-1600.png') repeat;
+  opacity: 0.4;
+  animation: twinkle 10s linear infinite;
+}
+
+.galaxy::after {
+  animation-duration: 18s;
+  opacity: 0.2;
+}
+
+@keyframes twinkle {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
