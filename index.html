@@ -71,21 +71,99 @@
 
 <section class="beginner">
   <h2>Start Your Astronomy Journey</h2>
+
   <div class="beginner-cards">
-    <div class="bcard">
+
+    <div class="bcard" onclick="toggleBox('stargazing')">
       <h3>Stargazing Basics</h3>
       <p>Learn how to find constellations and planets with just your eyes and curiosity.</p>
     </div>
-    <div class="bcard">
+
+    <div class="bcard" onclick="toggleBox('telescope')">
       <h3>Choosing a Telescope</h3>
       <p>Discover what type of telescope suits beginners and how to use it effectively.</p>
     </div>
-    <div class="bcard">
+
+    <div class="bcard" onclick="toggleBox('photo')">
       <h3>Astrophotography Tips</h3>
       <p>Capture the night sky with simple techniques and affordable equipment.</p>
     </div>
+
   </div>
+
+  <!-- ⭐ Hidden content sections appear BELOW the cards -->
+  <div id="stargazing" class="astro-content">
+    <h2>Stargazing Basics</h2>
+    <h3>How to Prepare</h3>
+    <ul>
+      <li>Check moon phase — new moon is best for deep-sky</li>
+      <li>Use a sky app: Stellarium, SkySafari, Star Walk</li>
+      <li>Let your eyes adapt for 20–30 minutes</li>
+    </ul>
+    <h3>Understanding the Sky</h3>
+    <ul>
+      <li>Winter: Orion, Taurus, Gemini</li>
+      <li>Spring: Leo, Virgo</li>
+      <li>Summer: Cygnus, Lyra, Scorpius</li>
+      <li>Autumn: Pegasus, Andromeda</li>
+    </ul>
+    <p><strong>Star-hopping:</strong> Start at Alnitak → Flame Nebula → Horsehead Nebula.</p>
+    <h3>What to Observe</h3>
+    <ul>
+      <li>Planets: Jupiter, Saturn, Mars</li>
+      <li>Nebulae: Orion, Lagoon</li>
+      <li>Star clusters: Pleiades, Beehive</li>
+      <li>Galaxies: Andromeda</li>
+    </ul>
+  </div>
+
+  <div id="telescope" class="astro-content">
+    <h2>Choosing a Telescope</h2>
+    <h3>What to Consider</h3>
+    <ul>
+      <li>Aperture is king — more light = better views</li>
+      <li>Planets: 70–90 mm</li>
+      <li>Galaxies/nebulae: 130–150 mm</li>
+      <li>Deep-sky: 200 mm+</li>
+    </ul>
+    <h3>Mount Types</h3>
+    <ul>
+      <li>Alt‑az: simple</li>
+      <li>Equatorial: tracks sky</li>
+      <li>Dobsonian: best value</li>
+    </ul>
+    <h3>Telescope Types</h3>
+    <ul>
+      <li>Refractors: sharp, low-maintenance</li>
+      <li>Reflectors: best value</li>
+      <li>Maksutov: compact, great for planets</li>
+    </ul>
+  </div>
+
+  <div id="photo" class="astro-content">
+    <h2>Astrophotography Tips</h2>
+    <h3>Essential Techniques</h3>
+    <p>Use the 300 rule: exposure ≈ 300 / focal length.</p>
+    <ul>
+      <li>ISO 800–1600 is ideal</li>
+      <li>Shoot in RAW</li>
+      <li>Stack images for best results</li>
+    </ul>
+    <h3>Deep-Sky Imaging</h3>
+    <ul>
+      <li>Use darks, flats, bias frames</li>
+      <li>Guiding allows 2–5 minute exposures</li>
+    </ul>
+    <h3>Planetary Imaging</h3>
+    <ul>
+      <li>Record video at 100–200 fps</li>
+      <li>Stack sharp frames</li>
+      <li>Sharpen with wavelets</li>
+    </ul>
+  </div>
+
 </section>
+
 
 <footer class="footer">
   <div class="footer-content">

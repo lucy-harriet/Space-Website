@@ -556,3 +556,22 @@ copyright {
 .close-btn:hover {
   background: #8fa3ff;
 }
+
+.astro-content {
+  display: none;
+  background: #111;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #ddd;
+  border: 1px solid #333;
+}
+
+.bcard {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bcard:hover {
+  transform: scale(1.03);
+}
