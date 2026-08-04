@@ -122,3 +122,33 @@ body {
   color: #cfd8ff;
   font-size: 1rem;
 }
+
+/* Mission Section */
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 3rem;
+  margin-top: 4rem;
+}
+
+.mission-image img {
+  width: 450px;
+  filter: drop-shadow(0 0 30px #3a6cf4);
+}
+
+.mission-text {
+  width: 45%;
+}
+
+.mission-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px #6a8cff;
+}
+
+.mission-text p {
+  font-size: 1.1rem;
+  color: #cfd8ff;
+  margin-bottom: 2rem;
+}
