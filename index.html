@@ -9,7 +9,7 @@
 
 <body>
 
-  <header class="navbar hidden">
+  <header class="navbar">
     <div class="logo">SPACE</div>
     <nav>
       <a href="about.html">About</a>
@@ -19,7 +19,7 @@
     </nav>
   </header>
 
-  <section class="hero hidden">
+  <section class="hero">
     <div class="hero-text">
       <h1>Orbit the Earth</h1>
       <p>Explore astronomy in a fun, futuristic way.</p>
@@ -28,135 +28,81 @@
     <div class="planet"></div>
   </section>
 
-  <section class="info-cards hidden">
-    <div class="card">
-      <h3>Low Earth Orbit</h3>
-      <p>Where satellites orbit close to Earth. Great for weather and imaging.</p>
-    </div>
+  <section class="info-cards">
+  <div class="card">
+    <h3>Low Earth Orbit</h3>
+    <p>Where satellites orbit close to Earth. Great for weather and imaging.</p>
+  </div>
 
-    <div class="card">
-      <h3>Geostationary Orbit</h3>
-      <p>Satellites stay above the same point on Earth. Perfect for communications.</p>
-    </div>
+  <div class="card">
+    <h3>Geostationary Orbit</h3>
+    <p>Satellites stay above the same point on Earth. Perfect for communications.</p>
+  </div>
 
-    <div class="card">
-      <h3>Deep Space</h3>
-      <p>Beyond Earth’s orbit — where probes explore planets and galaxies.</p>
-    </div>
-  </section>
+  <div class="card">
+    <h3>Deep Space</h3>
+    <p>Beyond Earth’s orbit — where probes explore planets and galaxies.</p>
+  </div>
+</section>
 
-  <section class="mission hidden">
-    <div class="mission-image">
-      <img src="Images/vecteezy_ai-generated-satellite-isolated-on-transparent-background_40335005.png" alt="Satellite">
-    </div>
+<section class="mission">
+  <div class="mission-image">
+    <img src="Images/vecteezy_ai-generated-satellite-isolated-on-transparent-background_40335005.png" alt="Satellite">
+    <section class="mission hidden">
+  </div>
 
-    <div class="mission-text">
-      <h2>Our Mission</h2>
-      <p>
-        Exploring Earth’s orbit and beyond. Satellites help us understand weather,
-        climate, communication, and the mysteries of deep space.
-      </p>
-      <button class="cta">Learn More</button>
-    </div>
-  </section>
-
-  <section class="galaxy hidden">
-    <h2>Explore the Galaxy</h2>
+  <div class="mission-text">
+    <h2>Our Mission</h2>
     <p>
-      Journey beyond Earth’s orbit and discover stars, nebulae, planets, and the
-      mysteries of deep space. The universe is vast — let’s explore it together.
+      Exploring Earth’s orbit and beyond. Satellites help us understand weather,
+      climate, communication, and the mysteries of deep space.
     </p>
-  </section>
+    <button class="cta">Learn More</button>
+  </div>
+</section>
 
-  <!-- ⭐ Beginner Astronomy Section -->
-  <section class="beginner hidden">
-    <h2>Start Your Astronomy Journey</h2>
-    <div class="beginner-cards">
+<section class="galaxy">
+  <h2>Explore the Galaxy</h2>
+  <p>
+    Journey beyond Earth’s orbit and discover stars, nebulae, planets, and the
+    mysteries of deep space. The universe is vast — let’s explore it together.
+  </p>
+</section>
 
-      <div class="bcard" onclick="openGuide('guide1')">
-        <h3>Stargazing Basics</h3>
-        <p>Learn how to find constellations and planets.</p>
-      </div>
-
-      <div class="bcard" onclick="openGuide('guide2')">
-        <h3>Choosing a Telescope</h3>
-        <p>Find the perfect telescope for beginners.</p>
-      </div>
-
-      <div class="bcard" onclick="openGuide('guide3')">
-        <h3>Astrophotography Tips</h3>
-        <p>Capture stunning images of the night sky.</p>
-      </div>
-
+<section class="beginner">
+  <h2>Start Your Astronomy Journey</h2>
+  <div class="beginner-cards">
+    <div class="bcard">
+      <h3>Stargazing Basics</h3>
+      <p>Learn how to find constellations and planets with just your eyes and curiosity.</p>
     </div>
-  </section>
-
-  <!-- ⭐ Hidden Guides -->
-  <section id="guide1" class="astro-guide hidden-guide">
-    <h2>Stargazing Basics</h2>
-    <p>Start by learning the major constellations like Orion, Ursa Major, and Cassiopeia. Use a star map or an app to help you locate planets and bright stars. Begin in a dark area away from city lights.</p>
-    <button class="close-btn" onclick="closeGuide('guide1')">Close</button>
-  </section>
-
-  <section id="guide2" class="astro-guide hidden-guide">
-    <h2>Choosing a Telescope</h2>
-    <p>For beginners, a simple refractor or Dobsonian telescope is perfect. Look for something with a stable mount and a clear eyepiece. Start with low magnification to make objects easier to find.</p>
-    <button class="close-btn" onclick="closeGuide('guide2')">Close</button>
-  </section>
-
-  <section id="guide3" class="astro-guide hidden-guide">
-    <h2>Astrophotography Tips</h2>
-    <p>Use a tripod and a camera with manual settings. Start with long exposures and wide lenses. Try photographing the Moon first, then move on to star trails and deep-sky objects.</p>
-    <button class="close-btn" onclick="closeGuide('guide3')">Close</button>
-  </section>
-
-  <footer class="footer hidden">
-    <div class="footer-content">
-      <h3>SPACE</h3>
-      <p>“Somewhere, something incredible is waiting to be known.” — Carl Sagan</p>
-
-      <div class="footer-links">
-        <a href="about.html">About</a>
-        <a href="technology.html">Technology</a>
-        <a href="galaxy.html">Galaxy</a>
-        <a href="satellite.html">Satellite</a>
-      </div>
-
-      <p class="copyright">© 2026 Lucy’s Space Website</p>
+    <div class="bcard">
+      <h3>Choosing a Telescope</h3>
+      <p>Discover what type of telescope suits beginners and how to use it effectively.</p>
     </div>
-  </footer>
+    <div class="bcard">
+      <h3>Astrophotography Tips</h3>
+      <p>Capture the night sky with simple techniques and affordable equipment.</p>
+    </div>
+  </div>
+</section>
 
-  <!-- ⭐ Scroll Animation + Guide Script -->
-  <script>
-    // Scroll Animation
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        }
-      });
-    });
+<footer class="footer">
+  <div class="footer-content">
+    <h3>SPACE</h3>
+    <p>“Somewhere, something incredible is waiting to be known.” — Carl Sagan</p>
 
-    const elements = document.querySelectorAll('.hidden');
-    elements.forEach(el => observer.observe(el));
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Technology</a>
+      <a href="#">Galaxy</a>
+      <a href="#">Satellite</a>
+    </div>
 
-    // Guide Popups
-    function openGuide(id) {
-      document.getElementById(id).style.display = "block";
-      setTimeout(() => {
-        document.getElementById(id).classList.add("show-guide");
-      }, 10);
-    }
+    <p class="copyright">© 2026 Lucy’s Space Website</p>
+  </div>
+</footer>
 
-    function closeGuide(id) {
-      const guide = document.getElementById(id);
-      guide.classList.remove("show-guide");
-      setTimeout(() => {
-        guide.style.display = "none";
-      }, 300);
-    }
-    
 <script src="script.js"></script>
 </body>
 </html>
-
