@@ -508,3 +508,51 @@ copyright {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Scroll Animations */
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Astronomy Guides */
+.astro-guide {
+  display: none;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 70%;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgba(100, 150, 255, 0.4);
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+}
+
+.show-guide {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.close-btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #6a8cff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  background: #8fa3ff;
+}
