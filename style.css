@@ -74,8 +74,8 @@ body {
 
 /* Planet Background */
 .planet {
-  width: 450px;
-  height: 450px;
+  width: 600px;
+  height: 600px;
   background: url('Images/vecteezy_planet-galaxy-space_16778857.png') no-repeat center/cover;
   filter: drop-shadow(0 0 40px #3a6cf4);
   animation: float 6s ease-in-out infinite;
